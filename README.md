@@ -192,7 +192,7 @@ This skill has been validated against a diverse set of repos — courses, applic
 
 1. Fork this repo and create a branch
 2. Make your changes (skills or docs)
-3. Test locally: copy `.claude/skills/ai-ready` to `~/.claude/skills/ai-ready` (Claude Code) or `.claude/skills/ai-ready/SKILL.md` to `~/.copilot/skills/ai-ready/SKILL.md` (Copilot CLI), start the agent, then say *"make this repo ai-ready"*
+3. Test locally: copy `.claude/skills/ai-ready-universal` to `~/.claude/skills/ai-ready-universal` (Claude Code) or `.claude/skills/ai-ready-universaly/SKILL.md` to `~/.copilot/skills/ai-ready-universal/SKILL.md` (Copilot CLI), start the agent, then say *"make this repo ai-ready"*
 4. Open a PR
 
 See [AGENTS.md](AGENTS.md) for the full contributor guide.
