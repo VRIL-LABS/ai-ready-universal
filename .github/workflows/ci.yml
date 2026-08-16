@@ -29,7 +29,7 @@ jobs:
 
       - name: Validate SKILL.md frontmatter
         run: |
-          python3 -c "
+          python3 - <<'PY'
           import sys, os
           for root, dirs, files in os.walk('.claude/skills'):
               for f in files:
@@ -51,11 +51,16 @@ jobs:
                           print(f'{path}: frontmatter missing description')
                           sys.exit(1)
                       print(f'{path}: valid')
-          "
+          PY
+
+      - name: Install validation dependencies
+        run: |
+          python3 -m venv .venv
+          .venv/bin/pip install --quiet pyyaml
 
       - name: Validate YAML files
         run: |
-          python3 -c "
+          .venv/bin/python - <<'PY'
           import yaml, glob, sys
           errors = []
           for pattern in ['.github/**/*.yml', '.github/**/*.yaml']:
@@ -68,4 +73,4 @@ jobs:
               print('\n'.join(errors))
               sys.exit(1)
           print('All YAML files valid')
-          "
+          PY

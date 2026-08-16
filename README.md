@@ -9,7 +9,7 @@ An Agent Skill that analyzes your repository and generates the configuration fil
 **Claude Code:**
 
 ```
-git clone https://github.com/VrilLabs/ai-ready /tmp/ai-ready
+git clone https://github.com/johnpapa/ai-ready /tmp/ai-ready
 cp -r /tmp/ai-ready/.claude/skills/ai-ready ~/.claude/skills/ai-ready
 ```
 
@@ -20,7 +20,7 @@ Or copy `.claude/skills/ai-ready/` into a project's own `.claude/skills/` to sco
 Install the skill from inside Copilot CLI:
 
 ```
-copilot plugin install VrilLabs/ai-ready
+copilot plugin install johnpapa/ai-ready
 ```
 
 Or install from the [Awesome Copilot plugin page](https://awesome-copilot.github.com/plugin/ai-ready/) in VS Code Insiders. This repository includes a marketplace manifest at `.github/plugin/marketplace.json`, so the install button can register `johnpapa/ai-ready` as a plugin marketplace.
@@ -194,7 +194,7 @@ This skill was strengthened using:
 - **[Sensei](https://github.com/spboyer/sensei)** — AI skill quality scorer that evaluates frontmatter, structure, and discoverability. Used to achieve a "High" rating.
 - **[Agent Skills Spec](https://github.com/github/awesome-copilot/blob/main/docs/README.skills.md)** — GitHub's specification for skill authoring. Used to refactor from 964 lines to a 225-line spec-compliant structure with progressive disclosure.
 
-- Credit to [johnpapa](https://github.com/spboyer)
+- Credit to [johnpapa](https://github.com/johnpapa)
 
 ## License
 

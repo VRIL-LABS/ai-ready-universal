@@ -4,13 +4,6 @@ All notable changes to this project will be documented in this file.
 
 ## [2026-08-15]
 
-### Changed
-
-- **Skill frontmatter optimized for cross-model compliance** — added `**WORKFLOW SKILL**` prefix, `INVOKES:`, and `FOR SINGLE OPERATIONS:` routing clarity to the description. Lead verb changed from "Analyzes" to "Analyze" for action verb detection. All spec compliance checks now pass at 🌟 level.
-- **SKILL.md body condensed** — reduced from 3761 to 3065 tokens (18% reduction). Removed 16 horizontal rules, tightened step descriptions, consolidated redundant constraint language in Important Rules section. Negative delta risk eliminated (22 constraint keywords → 0).
-- **Sensei YAML frontmatter parser fixed** — `parseFrontmatter` now correctly handles nested objects like `metadata: { version: "1.2.0" }` instead of treating them as flat strings. This fixes false `spec-version` warnings for skills that already have `metadata.version`.
-- **Sensei ACTION_VERBS expanded** — added improve, audit, review, optimize, refactor, migrate, monitor, debug, diagnose, assess to cover skill-improvement and analysis workflows.
-
 ### Added
 
 - **VS Code Insiders marketplace manifest** (`.github/plugin/marketplace.json`) — lets the Awesome Copilot install button register `johnpapa/ai-ready` as a plugin marketplace and install the AI Ready plugin.
@@ -18,6 +11,8 @@ All notable changes to this project will be documented in this file.
 
 ### Changed
 
+- **Skill frontmatter optimized for cross-model compliance** — added `**WORKFLOW SKILL**` prefix, `INVOKES:`, and `FOR SINGLE OPERATIONS:` routing clarity to the description. Lead verb changed from "Analyzes" to "Analyze" for action verb detection. All spec compliance checks now pass at 🌟 level.
+- **SKILL.md body condensed** — reduced from 3761 to 3065 tokens (18% reduction). Removed 16 horizontal rules, tightened step descriptions, consolidated redundant constraint language in Important Rules section. Negative delta risk eliminated (22 constraint keywords → 0).
 - **Documentation sync rule** — when skill behavior changes, update related docs to match repo standards and maintenance matrix.
 - **PR conflict handling rule** — when preparing PRs, sync with the target branch and attempt conflict resolution; if conflicts remain, ask the user how to proceed.
 - **Skill moved to `.claude/skills/ai-ready/`** (from `skills/ai-ready/`) — `.claude/skills/`, `.github/skills/`, and `.agents/skills/` are equivalent, spec-recognized locations for Agent Skills; moving here makes the skill natively loadable by Claude Code without a copy step, while remaining installable for Copilot CLI and other agents. `plugin.json`, `marketplace.json`, and `ci.yml` updated to the new path.

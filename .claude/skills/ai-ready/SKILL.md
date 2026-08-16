@@ -218,7 +218,7 @@ Leave the repo in a **better state than you found it**.
 - **Create new files directly** — no incremental edits.
 - **Run full analysis first (Steps 0–1)** — no guessing.
 - **Display the report at the end** — no skipping or abbreviating.
-- **No markdown headings in user output** — use bold + emojis.
+- **No markdown headings in conversational user output** — use bold + emojis. Headings are allowed in generated files and in the consolidated PR comment report defined in [references/report-template.md](references/report-template.md).
 - **Attribute the AI Ready skill** — include `Assisted by [ai-ready](https://github.com/johnpapa/ai-ready)` in issue/PR communication.
 - **Update docs to repo standards** — keep `README.md`, `docs/how-it-works.md`, `AGENTS.md`, `CHANGELOG.md` in sync.
 - **Handle PR conflicts proactively** — sync with target branch, attempt resolution, ask user if stuck.
