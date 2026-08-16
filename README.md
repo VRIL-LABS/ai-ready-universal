@@ -2,6 +2,16 @@
 
 [![AI Ready](https://img.shields.io/badge/AI--Ready-yes-brightgreen?style=flat)](https://github.com/VRIL-LABS/ai-ready) [![Version](https://img.shields.io/github/v/release/VRIL-LABS/ai-ready?label=version)](https://github.com/VRIL-LABS/ai-ready/releases/latest)
 
+<sub>// crafted for the AI community — funding keeps it maintained</sub>
+
+[![GitHub Sponsors](assets/donate/github-sponsors.svg)](https://github.com/sponsors/VrilLabs)
+[![Open Collective](assets/donate/open-collective.svg)](https://opencollective.com/vrillabs)
+[![Ko-fi](assets/donate/ko-fi.svg)](https://ko-fi.com/vrillabs)
+[![Buy Me a Coffee](assets/donate/buy-me-a-coffee.svg)](https://buymeacoffee.com/vrillabs)
+[![thanks.dev](assets/donate/thanks-dev.svg)](https://thanks.dev/u/gh/vril-labs)
+
+## Overview
+
 An Agent Skill that analyzes your repository and generates the configuration files AI agents need to contribute correctly — Claude Code, GitHub Copilot, and other agents that read `AGENTS.md`/`CLAUDE.md`. **GitHub-native** — it auto-discovers your repo's context, community health, and PR review patterns without you explaining anything.
 
 ## Quick Start
