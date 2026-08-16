@@ -1,6 +1,6 @@
 # AI Ready Universal
 
-[![AI Ready](https://img.shields.io/badge/AI--Ready-yes-brightgreen?style=flat)](https://github.com/johnpapa/ai-ready) [![Version](https://img.shields.io/github/v/release/johnpapa/ai-ready?label=version)](https://github.com/johnpapa/ai-ready/releases/latest)
+[![AI Ready](https://img.shields.io/badge/AI--Ready-yes-brightgreen?style=flat)](https://github.com/VRIL-LABS/ai-ready) [![Version](https://img.shields.io/github/v/release/VRIL-LABS/ai-ready?label=version)](https://github.com/VRIL-LABS/ai-ready/releases/latest)
 
 An Agent Skill that analyzes your repository and generates the configuration files AI agents need to contribute correctly — Claude Code, GitHub Copilot, and other agents that read `AGENTS.md`/`CLAUDE.md`. **GitHub-native** — it auto-discovers your repo's context, community health, and PR review patterns without you explaining anything.
 
@@ -9,7 +9,7 @@ An Agent Skill that analyzes your repository and generates the configuration fil
 **Claude Code:**
 
 ```
-git clone https://github.com/johnpapa/ai-ready /tmp/ai-ready
+git clone https://github.com/VRIL-LABS/ai-ready /tmp/ai-ready
 cp -r /tmp/ai-ready/.claude/skills/ai-ready ~/.claude/skills/ai-ready
 ```
 
@@ -20,10 +20,10 @@ Or copy `.claude/skills/ai-ready/` into a project's own `.claude/skills/` to sco
 Install the skill from inside Copilot CLI:
 
 ```
-copilot plugin install johnpapa/ai-ready
+copilot plugin install VRIL-LABS/ai-ready
 ```
 
-Or install from the [Awesome Copilot plugin page](https://awesome-copilot.github.com/plugin/ai-ready/) in VS Code Insiders. This repository includes a marketplace manifest at `.github/plugin/marketplace.json`, so the install button can register `johnpapa/ai-ready` as a plugin marketplace.
+Or install from the [Awesome Copilot plugin page](https://awesome-copilot.github.com/plugin/ai-ready/) in VS Code Insiders. This repository includes a marketplace manifest at `.github/plugin/marketplace.json`, so the install button can register `VRIL-LABS/ai-ready` as a plugin marketplace.
 
 Then type:
 
@@ -71,11 +71,11 @@ score this repo
 
 ## What to Expect
 
-After you run the skill, you get a full AI-readiness report — analysis, proposed changes, and a projected score. Here's what it looks like for [vscode-peacock](https://github.com/johnpapa/vscode-peacock):
+After you run the skill, you get a full AI-readiness report — analysis, proposed changes, and a projected score. Here's what it looks like for [vscode-peacock](https://github.com/VRIL-LABS/vscode-peacock):
 
 ![HTML readiness report](images/report-html.png)
 
-> 🔗 [View the interactive version](https://johnpapa.github.io/ai-ready/examples/sample-report-peacock.html) — collapsible sections, responsive layout, works on mobile.
+> 🔗 [View the interactive version](https://VRIL-LABS.github.io/ai-ready/examples/sample-report-peacock.html) — collapsible sections, responsive layout, works on mobile.
 
 The report shows:
 1. **Your Repo Today** — current score, what's nailed, what's missing, and why it matters
@@ -106,7 +106,7 @@ It's the same gap from both sides: **contributors don't know what maintainers ex
 
 ### Built from Real Maintainer Experience
 
-This skill isn't theoretical — it's shaped by [John Papa](https://github.com/johnpapa)'s experience maintaining popular open source projects and repos at large enterprises. The skill is tuned to prioritize what actually reduces review burden: maintenance matrices that catch the files contributors always forget, conventions mined from the PR feedback you're tired of repeating, and CI that catches problems before you have to.
+This skill isn't theoretical — it's shaped by [John Papa](https://github.com/VRIL-LABS)'s experience maintaining popular open source projects and repos at large enterprises. The skill is tuned to prioritize what actually reduces review burden: maintenance matrices that catch the files contributors always forget, conventions mined from the PR feedback you're tired of repeating, and CI that catches problems before you have to.
 
 ## How It Works — GitHub-Native by Default
 
@@ -193,7 +193,6 @@ This skill was strengthened using:
 
 - **[Sensei](https://github.com/spboyer/sensei)** — AI skill quality scorer that evaluates frontmatter, structure, and discoverability. Used to achieve a "High" rating.
 - **[Agent Skills Spec](https://github.com/github/awesome-copilot/blob/main/docs/README.skills.md)** — GitHub's specification for skill authoring. Used to refactor from 964 lines to a 225-line spec-compliant structure with progressive disclosure.
-
 - Credit to [johnpapa](https://github.com/johnpapa)
 
 ## License
