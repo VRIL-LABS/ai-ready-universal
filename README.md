@@ -20,10 +20,10 @@ An Agent Skill that analyzes your repository and generates the configuration fil
 
 ```
 git clone https://github.com/VRIL-LABS/ai-ready-universal /tmp/ai-ready-universal
-cp -r /tmp/ai-ready/.claude/skills/ai-ready ~/.claude/skills/ai-ready-universal
+cp -r /tmp/ai-ready/.claude/skills/ai-ready-universal ~/.claude/skills/ai-ready-universal
 ```
 
-Or copy `.claude/skills/ai-ready/` into a project's own `.claude/skills/` to scope it to that repo.
+Or copy `.claude/skills/ai-ready-universal/` into a project's own `.claude/skills/` to scope it to that repo.
 
 **Copilot CLI:**
 
@@ -33,7 +33,7 @@ Install the skill from inside Copilot CLI:
 copilot plugin install VRIL-LABS/ai-ready-universal
 ```
 
-Or install from the [Awesome Copilot plugin page](https://awesome-copilot.github.com/plugin/ai-ready/) in VS Code Insiders. This repository includes a marketplace manifest at `.github/plugin/marketplace.json`, so the install button can register `VRIL-LABS/ai-ready` as a plugin marketplace.
+Or install from the [Awesome Copilot plugin page](https://awesome-copilot.github.com/plugin/ai-ready/) in VS Code Insiders. This repository includes a marketplace manifest at `.github/plugin/marketplace.json`, so the install button can register `VRIL-LABS/ai-ready-universal` as a plugin marketplace.
 
 Then type:
 
@@ -49,10 +49,10 @@ The skill is safe to re-run. On the first run, it creates missing assets. On sub
 
 ### Keeping updated
 
-Update to the latest version:
+Update to the latest version (VSCode only):
 
 ```
-copilot plugin update ai-ready
+copilot plugin update ai-ready-universal
 ```
 
 ### Skip what you don't need
