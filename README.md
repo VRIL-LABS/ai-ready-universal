@@ -1,6 +1,6 @@
 # AI Ready Universal
 
-[![AI Ready](https://img.shields.io/badge/AI--Ready-yes-brightgreen?style=flat)](https://github.com/VRIL-LABS/ai-ready-universal)
+[![AI Ready](https://img.shields.io/badge/AI--Ready-yes-brightgreen?style=flat)](https://github.com/VRIL-LABS/ai-ready-universal-universal)
 
 <sub>// crafted for the AI community — funding keeps it maintained</sub>
 
@@ -19,7 +19,7 @@ An Agent Skill that analyzes your repository and generates the configuration fil
 **Claude Code:**
 
 ```
-git clone https://github.com/VRIL-LABS/ai-ready /tmp/ai-ready
+git clone https://github.com/VRIL-LABS/ai-ready-universal /tmp/ai-ready
 cp -r /tmp/ai-ready/.claude/skills/ai-ready ~/.claude/skills/ai-ready
 ```
 
