@@ -1,6 +1,6 @@
 # AI Ready Universal
 
-[![AI Ready](https://img.shields.io/badge/AI--Ready-yes-brightgreen?style=flat)](https://github.com/VRIL-LABS/ai-ready-universal) [![Version](https://img.shields.io/github/v/release/VRIL-LABS/ai-ready?label=version)](https://github.com/VRIL-LABS/ai-ready-universal/releases/latest)
+[![AI Ready](https://img.shields.io/badge/AI--Ready-yes-brightgreen?style=flat)](https://github.com/VRIL-LABS/ai-ready-universal)
 
 <sub>// crafted for the AI community — funding keeps it maintained</sub>
 
